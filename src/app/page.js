@@ -31,7 +31,7 @@ export default function Home() {
           </p>
         </div>
       </section>
-      <section className="text-center">
+      <section className="text-center"> 
         <SectionHeader subHeader={"Don't hesitate"} mainHeader={"Contact us"} />
         <div className="mt-8">
           <a className="text-4xl underline text-gray-500" href="tel:+0908457052">
