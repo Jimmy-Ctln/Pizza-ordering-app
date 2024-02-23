@@ -43,12 +43,12 @@ export default function LoginPage() {
       <div className="my-4 text-center text-gray-500">
           or login with provider
         </div>
-        <button className="flex items-center gap-4 justify-center">
+        <button type="button" onClick={() => signIn('google')} className="flex items-center gap-4 justify-center">
           <Image src={"/google.png"} alt="google logo" width={24} height={24} />
           Login with Google
         </button>
         <div className="text-center my-4 text-gray-500 border-t py-4">
-        Any account ? <Link className="underline" href={'/login'}>Register here &raquo;</Link>
+        Any account ? <Link className="underline" href={'/register'}>Register here &raquo;</Link>
       </div>
       </form>
     </section>

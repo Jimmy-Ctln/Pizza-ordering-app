@@ -6,7 +6,6 @@ import Link from "next/link";
 export const Header = () => {
 
   const session = useSession()
-  // console.log(session)
   const status = session.status
 
   return (
@@ -30,8 +29,8 @@ export const Header = () => {
       )}
       {status === 'unauthenticated' && (
         <>
-            <Link href={'/login'}className="px-6 py-2 rounded-full">Login</Link>
-            <Link href={'/register'}className="bg-primary text-white px-6 py-2 rounded-full">Register</Link>
+          <Link href={'/login'}className="px-6 py-2 rounded-full">Login</Link>
+          <Link href={'/register'}className="bg-primary text-white px-6 py-2 rounded-full">Register</Link>
         </>
       )}
       </nav>
