@@ -18,7 +18,7 @@ export const Hero = () => {
             Order now
             <Right />
           </button>
-          <button className="flex items-center gap-2 text-gray-600 font-semibold">
+          <button className="flex items-center border-0 gap-2 text-gray-600 font-semibold">
             Learn more
             <Right />
           </button>
